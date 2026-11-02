@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- TODO: replace with your real name / title -->
+  <title>Yulan Guo — Academic Homepage</title>
+  <meta name="description" content="Personal academic homepage: research, publications, teaching, and CV." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="site-nav">
+    <div class="inner">
+      <a class="brand" href="index.html">Yulan Guo</a>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ============ HERO ============ -->
+    <div class="hero">
+      <!-- TODO: replace assets/img/photo.svg with your photo (e.g. photo.jpg) -->
+      <img class="photo" src="assets/img/photo.svg" alt="Yulan Guo" />
+      <div class="intro">
+        <h1>Yulan Guo</h1>
+        <!-- TODO: your title / affiliation -->
+        <p class="role">Assistant Professor of [Your Field] at [Your University]</p>
+        <!-- TODO: 2-4 sentence bio. Keep it like the reference: what you work on + a hook. -->
+        <p class="bio">
+          I work on [your research area] — specifically [specific questions you investigate].
+          A running theme is [your intellectual through-line]. I am the author of
+          [book/article highlights] and also publish in [adjacent areas].
+        </p>
+        <div class="contacts">
+          <a href="mailto:you@example.edu">you@example.edu</a>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter / X</a>
+          <a href="cv.html">CV</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ START HERE (featured) ============ -->
+    <section class="featured">
+      <div class="label">Start here</div>
+      <!-- TODO: pick one signature piece — a talk, podcast, or paper that best introduces you -->
+      <h3><a href="#">The case for [your central idea]</a></h3>
+      <div class="meta">[Podcast / Talk] · with [Name] · [Month Year] · [length]</div>
+      <p class="desc">
+        A short, accessible entry point into my work for newcomers.
+        <a href="#">Watch / Listen</a>
+      </p>
+    </section>
+
+    <!-- ============ RESEARCH HIGHLIGHTS ============ -->
+    <section>
+      <h2>Research Highlights</h2>
+
+      <div class="highlight">
+        <h3><a href="publications.html">[Selected Work Title 1]</a></h3>
+        <div class="meta">With [Co-author] · <em>[Venue / Publisher]</em> ([status])</div>
+        <p class="desc">One-sentence description of the contribution and why it matters.</p>
+      </div>
+
+      <div class="highlight">
+        <h3><a href="publications.html">[Selected Work Title 2]</a></h3>
+        <div class="meta">With [Co-author] · <em>[Venue / Publisher]</em> ([status])</div>
+        <p class="desc">One-sentence description of the contribution and why it matters.</p>
+      </div>
+
+      <div class="highlight">
+        <h3><a href="publications.html">[Selected Work Title 3]</a></h3>
+        <div class="meta">With [Co-author] · <em>[Venue / Publisher]</em> ([status])</div>
+        <p class="desc">One-sentence description of the contribution and why it matters.</p>
+      </div>
+
+      <p style="margin-top:18px"><a href="research.html">For more, go to my research page →</a></p>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year"></span> Yulan Guo</span>
+      <span>Built as a static site · <a href="mailto:you@example.edu">you@example.edu</a></span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

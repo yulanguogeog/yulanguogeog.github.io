@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yulan Guo — CV</title>
+  <meta name="description" content="Curriculum vitae." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-nav">
+    <div class="inner">
+      <a class="brand" href="index.html">Yulan Guo</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html" class="active">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section>
+      <h2>Curriculum Vitae</h2>
+      <p>
+        <!-- TODO: either keep this inline CV, or replace with a link to a PDF:
+             <a href="assets/cv.pdf">Download PDF CV</a> -->
+        <a href="assets/cv.pdf">Download PDF CV</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="top"><span class="title">PhD in [Field], [University]</span><span class="when">[Year]</span></div>
+        <p class="sub">Dissertation: [Title]. Advisor: [Name].</p>
+      </div>
+      <div class="entry">
+        <div class="top"><span class="title">BA in [Field], [University]</span><span class="when">[Year]</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Positions</h2>
+      <div class="entry">
+        <div class="top"><span class="title">[Your Title]</span><span class="when">[Year]–present</span></div>
+        <p class="sub">[Department], [University]</p>
+      </div>
+      <div class="entry">
+        <div class="top"><span class="title">[Previous Role]</span><span class="when">[Years]</span></div>
+        <p class="sub">[Institution]</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Selected Awards &amp; Service</h2>
+      <ul>
+        <li>[Award / Grant], [Year]</li>
+        <li>[Service role], [Years]</li>
+        <li>[Refereeing for journals / conferences]</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span class="yr"></span> Yulan Guo</span>
+      <span><a href="mailto:you@example.edu">you@example.edu</a></span>
+    </div>
+  </footer>
+  <script>document.querySelectorAll('.yr').forEach(e=>e.textContent=new Date().getFullYear());</script>
+</body>
+</html>
